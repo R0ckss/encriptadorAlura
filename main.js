@@ -1,17 +1,17 @@
 window.onload = function() {
-    const textarea = document.getElementById('textoEncriptar');
-    textarea.value = ''; // Limpia el contenido anterior
-    textarea.selectionStart = 0;
-    textarea.selectionEnd = 0;
-    textarea.focus();
+    const textarea1 = document.getElementById('textoEncriptar');
+    textarea1.value = ''; // Limpia el contenido anterior
+    textarea1.selectionStart = 0;
+    textarea1.selectionEnd = 0;
+    textarea1.focus();
   };
 
   window.onload = function() {
-    const textarea = document.getElementById('textoEncriptado');
-    textarea.value = ''; // Limpia el contenido anterior
-    textarea.selectionStart = 0;
-    textarea.selectionEnd = 0;
-    textarea.focus();
+    const textarea2 = document.getElementById('textoEncriptado');
+    textarea2.value = ''; // Limpia el contenido anterior
+    textarea2.selectionStart = 0;
+    textarea2.selectionEnd = 0;
+    textarea2.focus();
   };
 
 //encriptar texto
