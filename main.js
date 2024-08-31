@@ -1,12 +1,14 @@
 window.onload = function() {
+    
     const textarea1 = document.getElementById('textoEncriptar');
     textarea1.value = ''; // Limpia el contenido anterior
     textarea1.selectionStart = 0;
     textarea1.selectionEnd = 0;
-    textarea1.focus();
+    //textarea1.focus();
   };
 
   window.onload = function() {
+    
     const textarea2 = document.getElementById('textoEncriptado');
     textarea2.value = ''; // Limpia el contenido anterior
     textarea2.selectionStart = 0;
@@ -45,9 +47,9 @@ const decryptBtn = document.getElementById("decryptBtn");
 const copyBtn = document.getElementById("copyBtn");
 
 encryptBtn.addEventListener("click", () => {
-    const text = textoEncriptar.value;
-    const textoEncriptado = encriptarTexto(text);
-    textoEncriptado.value = textoEncriptado;
+    const text = inputText.value;
+    const encryptedText = encriptarTexto(text);
+    outputText.value = encryptedText;
 });
 
 decryptBtn.addEventListener("click", () => {
